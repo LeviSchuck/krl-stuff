@@ -21,6 +21,7 @@ ruleset HelloWorldApp {
         <h5>Hello, world!</h5>
 	<p>
 		I like cheese, do you?
+		<b>Where is the cottage cheese?</b>
 	</p>
       >>;
     }
