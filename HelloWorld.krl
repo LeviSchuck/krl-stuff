@@ -19,11 +19,14 @@ ruleset HelloWorldApp {
     pre {
       my_html = <<
         <h5>Hello, world!</h5>
+	<p>
+		I like cheese, do you?
+	</p>
       >>;
     }
     {
       SquareTag:inject_styling();
-      CloudRain:createLoadPanel("Hello World!", {}, my_html);
+      CloudRain:createLoadPanel("Hello World...", {}, my_html);
     }
   }
 }
